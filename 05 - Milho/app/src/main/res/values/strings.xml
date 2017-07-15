@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">São João</string>
+    <string name="action_orcamento">Orçamento</string>
+    <string name="action_ord_descricao">Ordenar por descrição</string>
+    <string name="action_ord_quantidade">Ordenar por quantidade</string>
+    <string name="action_ord_valor_unitario">Ordenar por valor unitário</string>
+    <string name="action_ord_valor_total">Ordenar por valor total</string>
+    <string name="action_ord_data">Ordenar por data</string>
+    <string name="action_zerar">Apagar Tudo</string>
+    <string name="action_sobre">Sobre</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancelar</string>
+</resources>

@@ -1,0 +1,63 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.edu.ifpb.si.pdm.milho.MainActivity">
+
+    <item
+        android:id="@+id/action_orcamento"
+        android:orderInCategory="100"
+        android:title="@string/action_orcamento"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_ordenar"
+        android:orderInCategory="100"
+        android:title="Ordenar"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/action_ord_descricao"
+                android:orderInCategory="100"
+                android:title="@string/action_ord_descricao"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_ord_quantidade"
+                android:orderInCategory="100"
+                android:title="@string/action_ord_quantidade"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_ord_valor_unitario"
+                android:orderInCategory="100"
+                android:title="@string/action_ord_valor_unitario"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_ord_valor_total"
+                android:orderInCategory="100"
+                android:title="@string/action_ord_valor_total"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_ord_data"
+                android:orderInCategory="100"
+                android:title="@string/action_ord_data"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_zerar"
+        android:orderInCategory="100"
+        android:title="@string/action_zerar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sobre"
+        android:orderInCategory="100"
+        android:title="@string/action_sobre"
+        app:showAsAction="never" />
+
+</menu>
