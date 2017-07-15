@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tvTituloFilme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.23"
+        android:text="Titulo do Filme"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="casual"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="21dp" />
+
+    <TextView
+        android:id="@+id/tvDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pedaço da descrição do filme"
+        android:maxLines="1"
+        android:singleLine="true"
+        app:layout_constraintTop_toBottomOf="@+id/tvTituloFilme"
+        tools:layout_editor_absoluteX="21dp"
+        android:layout_marginTop="15dp"
+        tools:layout_editor_absoluteY="51dp" />
+</android.support.constraint.ConstraintLayout>
